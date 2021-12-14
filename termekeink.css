@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');body{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto', sans-serif; ;
+}
+main{
+    display: grid;
+    grid-template-areas: "h h h h"
+                         "se se se se"
+                         "ar ar ar ar" 
+                         "f f f f ";
+    margin: auto;
+
+}
+article{
+    grid-area: ar;
+}
+article li{
+    padding-top: 15px;
+    font-size: 20px;
+    list-style-image: url("kepek/felsorolas.png");
+    
+}
+article h1{
+    font-size: 80px;
+}
+article img{
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+h1{
+    color:#54793C ;
+    font-size: 100px;
+}
+h2{
+    color:#54793C ;
+    font-size: 50px;
+}
+header{
+    grid-area: h;
+}
+section{
+    grid-area: se;
+    margin: auto;
+
+}
+footer{
+    grid-area: f;
+}
+section h1{
+    color:#54793C ;
+    font-size: 100px;
+}
+section p{
+    font-size: 20px;
+}
+header ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+header ul li{
+    padding-top: 50px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+header a:hover{
+    border-bottom: 6px solid #54793C;
+    transition: 200ms;
+    opacity: 0,5s;
+}
+header img{
+    float: left;
+    clear: both;
+}
+.szelesseg{
+    max-width: 1100px;
+    margin: auto;
+}
+.feherresz{
+    float: left;
+    overflow: hidden;
+    position: relative;
+    
+}
+.feherresz img{
+    max-width: 750px;
+}
+.zoldresz{
+    max-width: 1200px;
+    max-height: 500px;
+    float: right;
+    background-color: #a6d266;
+}
